@@ -1,0 +1,597 @@
+.wrapper{
+  width:100%;
+}
+.menu{
+  font-size: 25px;
+  font-family:sans-serif;
+  font-weight:normal;
+
+
+opacity: .;
+
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: green;
+}
+.menu nav{
+	float:center;
+
+}
+.menu nav ul{
+}
+.menu nav ul li {
+    float:left;
+
+ background-color:#ffda39;
+  padding: 3px 22px 3px 22px;
+  list-style: none;
+  margin: 1rem 1rem 0 1rem;
+  border-radius: 10px 10px 0px 10px;
+  opacity:.9;
+
+
+}
+.banner {
+  width:100%;
+  height:100vh;
+  background: url(Images/IKEA.jpg);
+  background-blend-mode:lighten;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  display:block;
+}
+.banner h1{
+  position:absolute;
+  top:220px;
+  right: 70px;
+  font-size: 110px;
+  font-weight: 100;
+  color: #fff;
+  text-shadow: 2px 2px 8px #111;
+  opacity: 1;
+font-family: 'Monoton', cursive;}
+.under-text h2{
+  position: absolute;
+  bottom:160px;
+
+  right: 80px;
+
+  font-size: 80px;
+  font-weight: 100;
+  color: #fff;
+font-family: 'Monoton', cursive;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.blog-posts {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100vw - 51px);
+    margin: 0 0 0 0;
+    padding:0 0 0 0;
+}
+.posts-list {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+    position: relative;
+    border-radius: 10px 10px 0px 10px;
+    padding: 0rem 0rem 0rem 0;
+    margin: 3rem 4rem 0 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+}
+
+.heading-posts-list{
+    display: inline-block;
+    font-size: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    transform-origin: 0 0;
+  transform: rotate(-90deg);
+  font-size: 1.6rem;
+  margin: 10rem 0 10rem 0;
+
+
+}
+.post-card-grid {
+
+    padding: 4rem 0rem 1rem 22rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch
+
+}
+.post-card-grid::-webkit-scrollbar-thumb {
+
+    background: #201c29;
+    border-radius: 100px;
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+    box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+.post-card-grid::-webkit-scrollbar-track {
+    background: linear-gradient(to right,#201c29,#201c29 1px,#17141d 1px,#17141d);
+}
+::selection {
+    background: #9c27b0;
+    color: #fff;
+}
+
+
+.post-mini-card {
+  min-width: 150px;
+  min-height: 10px;
+  padding: 0rem 2rem 4rem 3rem ;
+  border-radius: 20px;
+  background: #17141d;
+  -webkit-box-shadow: -1rem 0 3rem #000;
+  box-shadow: -1rem 0 3rem #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin: 4rem 0rem 0rem 0rem;
+}
+
+.fitting{
+  height:369px;
+  width:209px;
+}
+.post-name {
+    margin-bottom: auto;
+}
+.post-name h2{
+  color: #fff;
+}
+.post-name h1{
+  color: #fff;
+}
+.post-name p{
+  color: #fff;
+}
+.sociallinks p{
+  color:#ffffaf;
+  font-size: 25px;
+  font-style: OCR A Std;
+  font-family: monospace;
+}
+body{
+  background-color: #111;
+}
+@media all and (min-width: 414px) and (max-width: 736px) {
+  .banner {
+    background: url(Images/IKEA916.jpg);
+    background-size:135%;
+
+
+  }
+
+  .menu{
+    font-size: 14px;
+  margin: -.75rem .25rem 0rem -1.5rem;
+
+  }
+
+  .menu nav ul li {
+
+   padding: 5px 2px 4px 2px;
+    margin: .5rem .5rem .5rem 0rem;
+    border-radius: 90px 90px 90px 90px;
+    opacity:.9;
+
+
+  }
+  .banner h1{
+    position:absolute;
+  top:100px;
+    right: 20px;
+    font-size: 50px;
+
+
+  }
+  .under-text h2{
+    position: absolute;
+    top:150px;
+    right: 22px;
+
+    font-size: 36px;
+
+  }
+  .posts-list {
+      padding: 10rem 0rem 0rem 0;
+      margin: 4rem 0rem 10rem 0rem;
+  }
+
+  .heading-posts-list{
+    font-size: 1rem;
+    margin: 10rem 0 10rem 0;
+
+
+  }
+  .fitting{
+    height:208px;
+    width:118px;
+  }
+  .post-card-grid {
+
+      padding: 2rem 0rem 0rem 2rem;
+      margin: -15rem 0rem 15rem 0rem;
+
+  }
+  .post-mini-card {
+    padding: 1rem 0rem 2rem 2rem ;
+    margin: 18rem 0rem 0rem 0rem;
+  }
+
+
+
+}
+@media all and (min-width: 375px) and (max-width: 667px) {
+  .banner {
+    background: url(Images/IKEA916.jpg);
+    background-size:135%;
+
+
+  }
+
+  .menu{
+    font-size: 12px;
+  margin: -.75rem .25rem 0rem -1.5rem;
+      font-weight:bold;
+  }
+
+  .menu nav ul li {
+
+   padding: 5px 2px 4px 2px;
+    margin: .5rem .4rem .5rem 0rem;
+    border-radius: 90px 90px 90px 90px;
+    opacity:.9;
+
+
+  }
+  .banner h1{
+    position:absolute;
+    top:100px;
+    right: 20px;
+    font-size: 42px;
+
+
+  }
+  .under-text h2{
+    position: absolute;
+
+    top:150px;
+    right: 22px;
+
+    font-size: 30px;
+
+  }
+  .posts-list {
+      padding: 10rem 0rem 0rem 0;
+      margin: 4rem 0rem 10rem 0rem;
+  }
+
+  .heading-posts-list{
+    font-size: 1rem;
+    margin: 10rem 0 10rem 0;
+
+
+  }
+  .fitting{
+    height:208px;
+    width:118px;
+  }
+  .post-card-grid {
+
+      padding: 2rem 0rem 0rem 2rem;
+      margin: -15rem 0rem 15rem 0rem;
+
+  }
+  .post-mini-card {
+    padding: 1rem 0rem 2rem 2rem ;
+    margin: 18rem 0rem 0rem 0rem;
+  }
+
+}
+@media all and (min-width: 375px) and (max-width: 812px) {
+  .banner {
+    background: url(Images/IKEA916.jpg);
+    background-size:135%;
+
+
+  }
+
+  .menu{
+    font-size: 11px;
+  margin: -.75rem .25rem 0rem -1.5rem;
+      font-weight:bold;
+  }
+
+  .menu nav ul li {
+
+   padding: 5px 2px 4px 2px;
+    margin: .5rem .4rem .5rem 0rem;
+    border-radius: 90px 90px 90px 90px;
+    opacity:.9;
+
+
+  }
+  .banner h1{
+    position:absolute;
+    top:100px;
+    right: 20px;
+    font-size: 42px;
+
+
+  }
+  .under-text h2{
+    position: absolute;
+    top:150px;
+    right: 22px;
+
+    font-size: 30px;
+
+  }
+  .posts-list {
+      padding: 10rem 0rem 0rem 0;
+      margin: 4rem 0rem 10rem 0rem;
+  }
+
+  .heading-posts-list{
+    font-size: 1rem;
+    margin: 10rem 0 10rem 0;
+
+
+  }
+  .fitting{
+    height:208px;
+    width:118px;
+  }
+  .post-card-grid {
+
+      padding: 2rem 0rem 0rem 2rem;
+      margin: -15rem 0rem 15rem 0rem;
+
+  }
+  .post-mini-card {
+    padding: 1rem 0rem 2rem 2rem ;
+    margin: 18rem 0rem 0rem 0rem;
+  }
+
+}
+@media all and (min-width: 768PX) and (max-width: 1024px) {
+  .banner {
+    background: url(Images/IKEA916.jpg);
+    background-size:110%;
+
+
+  }
+
+  .menu{
+    font-size: 16px;
+  margin: -.75rem .25rem 0rem -1.5rem;
+
+  }
+
+  .menu nav ul li {
+
+   padding: 5px 2px 4px 2px;
+    margin: .5rem .5rem .5rem 0rem;
+    border-radius: 90px 90px 90px 90px;
+    opacity:.9;
+
+
+  }
+  .banner h1{
+    position:absolute;
+    top:100px;
+    right: 20px;
+    font-size: 50px;
+
+
+  }
+  .under-text h2{
+    position: absolute;
+    top:160px;
+    right: 22px;
+
+    font-size: 36px;
+
+  }
+  .posts-list {
+      padding: 10rem 0rem 0rem 0;
+      margin: 4rem 0rem 10rem 0rem;
+  }
+
+  .heading-posts-list{
+    font-size: 1rem;
+    margin: 10rem 0 10rem 0;
+
+
+  }
+  .fitting{
+    height:208px;
+    width:118px;
+  }
+  .post-card-grid {
+
+      padding: 2rem 0rem 0rem 2rem;
+      margin: -15rem 0rem 15rem 0rem;
+
+  }
+  .post-mini-card {
+    padding: 1rem 0rem 2rem 2rem ;
+    margin: 18rem 0rem 0rem 0rem;
+  }
+
+
+
+}
+@media all and (min-width: 1024px) and (max-width: 1366px) {
+  .banner {
+    background: url(Images/IKEA916.jpg);
+    background-size:110%;
+
+
+  }
+
+  .menu{
+    font-size: 24px;
+  margin: -.75rem .25rem 0rem -1.5rem;
+
+  }
+
+  .menu nav ul li {
+
+   padding: 5px 2px 4px 2px;
+    margin: .5rem .5rem .5rem 0rem;
+    border-radius: 90px 90px 90px 90px;
+    opacity:.9;
+
+
+  }
+  .banner h1{
+    position:absolute;
+    top:100px;
+    right: 20px;
+    font-size: 50px;
+
+
+  }
+  .under-text h2{
+    position: absolute;
+    top:160px;
+    right: 22px;
+
+    font-size: 36px;
+
+  }
+  .posts-list {
+      padding: 10rem 0rem 0rem 0;
+      margin: 4rem 0rem 10rem 0rem;
+  }
+
+  .heading-posts-list{
+    font-size: 1rem;
+    margin: 10rem 0 10rem 0;
+
+
+  }
+  .fitting{
+    height:208px;
+    width:118px;
+  }
+  .post-card-grid {
+
+      padding: 2rem 0rem 0rem 2rem;
+      margin: -15rem 0rem 15rem 0rem;
+
+  }
+  .post-mini-card {
+    padding: 1rem 0rem 2rem 2rem ;
+    margin: 18rem 0rem 0rem 0rem;
+  }
+
+
+
+}
+@media all and (min-width: 320px) and (max-width: 568px) {
+  .banner {
+    background: url(Images/IKEA916.jpg);
+    background-size:135%;
+
+
+  }
+
+  .menu{
+    font-size: 9px;
+  margin: -.75rem .25rem 0rem -1.5rem;
+      font-weight:bold;
+  }
+
+  .menu nav ul li {
+
+   padding: 5px 2px 4px 2px;
+    margin: .5rem .4rem .5rem 0rem;
+    border-radius: 90px 90px 90px 90px;
+    opacity:.9;
+
+
+  }
+  .banner h1{
+    position:absolute;
+    top:100px;
+    right: 20px;
+    font-size: 42px;
+
+
+  }
+  .under-text h2{
+    position: absolute;
+
+    top:150px;
+    right: 22px;
+
+    font-size: 30px;
+
+  }
+  .posts-list {
+      padding: 10rem 0rem 0rem 0;
+      margin: 4rem 0rem 10rem 0rem;
+  }
+
+  .heading-posts-list{
+    font-size: 1rem;
+    margin: 10rem 0 10rem 0;
+
+
+  }
+  .fitting{
+    height:208px;
+    width:118px;
+  }
+  .post-card-grid {
+
+      padding: 2rem 0rem 0rem 2rem;
+      margin: -15rem 0rem 15rem 0rem;
+
+  }
+  .post-mini-card {
+    padding: 1rem 0rem 2rem 2rem ;
+    margin: 18rem 0rem 0rem 0rem;
+  }
+
+}

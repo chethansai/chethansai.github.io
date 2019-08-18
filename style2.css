@@ -1,0 +1,174 @@
+.menu{
+  font-size: 25px;
+  font-family:sans-serif;
+  font-weight:normal;
+  color: #ffffff;
+
+opacity: .;
+
+}
+.menu nav{
+	float:center;
+
+}
+.menu nav ul{
+}
+.menu nav ul li {
+    float:left;
+ background-color: #111111;
+  padding: 3px 22px 3px 22px;
+  list-style: none;
+  margin: 1rem 1rem 0 1rem;
+  border-radius: 10px 10px 0px 10px;
+  opacity: .9;
+
+
+}
+.banner {
+  width:100%;
+  height:100vh;
+  background-image: url(Images/IKEA.jpg);
+  background-blend-mode:lighten;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+}
+.banner h1{
+  position:absolute;
+  top:220px;
+  right: 70px;
+  font-size: 110px;
+  font-style: oblique;
+  font-weight: 100;
+  font-family: fantasy;
+  color: #fff;
+  text-shadow: 2px 2px 8px #111;
+  opacity: 1;
+}
+.under-text h2{
+  position: absolute;
+  bottom:160px;
+
+  right: 80px;
+
+  font-size: 80px;
+  font-style: oblique;
+  font-weight: 100;
+  font-family: fantasy;
+  color: #fff;
+
+  text-shadow: 2px 2px 8px #111;
+}
+
+.blog-posts {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100vw - 51px);
+    margin: 0 0 0 0;
+    padding:0 0 0 0;
+}
+.posts-list {
+    background-image: linear-gradient(to top,#ff8a00,#da1b60);
+    position: relative;
+    border-radius: 10px 10px 0px 10px;
+    padding: 0rem 0rem 0rem 0;
+    margin: 3rem 4rem 0 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+}
+
+.heading-posts-list{
+    display: inline-block;
+    font-size: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    transform-origin: 0 0;
+  transform: rotate(-90deg);
+  font-size: 1.6rem;
+  margin: 10rem 0 10rem 0;
+
+
+}
+.post-card-grid {
+
+    padding: 4rem 40rem 1rem 20rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.post-card-grid::-webkit-scrollbar-thumb {
+
+    background: #201c29;
+    border-radius: 100px;
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+    box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+.post-card-grid::-webkit-scrollbar-track {
+    background: linear-gradient(to right,#201c29,#201c29 1px,#17141d 1px,#17141d);
+}
+::selection {
+    background: #9c27b0;
+    color: #fff;
+}
+
+
+.post-mini-card {
+    min-width: 150px;
+    min-height: 10px;
+    padding: 0rem 2rem 4rem 2rem ;
+    border-radius: 20px;
+    background: #17141d;
+    -webkit-box-shadow: -1rem 0 3rem #000;
+    box-shadow: -1rem 0 3rem #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: .2s;
+    transition: .2s;
+    margin: 0;
+}
+.post-name {
+    margin-bottom: auto;
+}
+.post-name h2{
+  color: #fff;
+}
+.post-name h1{
+  color: #fff;
+}
+.post-name p{
+  color: #fff;
+}
+.sociallinks p{
+  color:#ffffaf;
+  font-size: 25px;
+  font-style: OCR A Std;
+  font-family: monospace;
+}
+body{
+  background-color: #111;
+}
