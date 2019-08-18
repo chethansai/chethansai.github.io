@@ -131,6 +131,55 @@ a:active {
       background-color: none;
   	}
 }
+@media all and (min-width: 320px) and (max-width: 568px) {
+  .menu{
+    font-size: 9px;
+    font-family:sans-serif;
+    font-weight:normal;
+    align-items:center;
+  opacity: .;
+  margin: 0rem 0rem 0rem 0rem;
+  }
+  .menu nav{
+    float:left;
+    margin: 0rem 0rem 0rem 0rem;
+
+
+  }
+  .menu nav ul li {
+      float:left;
+
+   background-color:#ffda39;
+   padding: 4px 2px 4px 2px;
+    list-style:none;
+    margin: 0rem .5rem .5rem 0rem;
+    border-radius: 80px 80px 80px 80px;
+    opacity:.9;
+
+
+  }
+  .paragraph h1{
+  	font-size:55;
+  	}
+  .paragraph pre{
+
+    margin:1rem 0rem 0rem 4rem;
+    text-align:left;
+    font-weight:auto;
+    background-color:#fcfcfc;
+    line-height:120%;
+  }
+  .paragraph p{
+    font-size:16;
+        font-family: 'tiempos',georgia,serif;
+      font-weight: normal;
+    margin:3rem 1rem 3rem 1rem;
+    text-align:center;
+    font-weight:auto;
+    background-color:#fcfcfc;
+    line-height:150%;
+  }
+}
 @media all and (min-width: 375px) and (max-width: 812px) {
   .menu{
     font-size: 14px;
