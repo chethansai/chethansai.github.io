@@ -133,7 +133,7 @@ a:active {
 }
 @media all and (min-width: 320px) and (max-width: 568px) {
   .menu{
-    font-size: 9px;
+    font-size: 7px;
     font-family:sans-serif;
     font-weight:normal;
     align-items:center;
