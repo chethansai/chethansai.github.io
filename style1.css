@@ -196,7 +196,9 @@ a:active {
     line-height:150%;
   }
   .blogphoto{
-    margin:10px 0px 0px 50px;
+    height: 230px;
+    width: 130px;
+    margin:10px 0px 0px 92px;
 
   }
 
