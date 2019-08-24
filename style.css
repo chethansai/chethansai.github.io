@@ -191,6 +191,11 @@ font-family: 'Monoton', cursive;
 body{
   background-color: #111;
 }
+  pre{
+    text-align:center;
+    font-family:founders;
+
+  }
 @media all and (min-width: 414px) and (max-width: 736px) {
   .banner {
     background: url(Images/IKEA916.jpg);
