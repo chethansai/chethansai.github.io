@@ -80,7 +80,7 @@ font-family: 'Monoton', cursive;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: calc(100vw - 60px);
+    width: calc(100vw - 80px);
     margin: 0 0 0 0;
     padding:0 0 0 0;
 }
@@ -242,7 +242,7 @@ body{
 
   .heading-posts-list{
     font-size: 1rem;
-    margin: 10rem 0 10rem 0;
+    margin: 10rem -4rem 10rem 1rem;
 
 
   }
@@ -311,7 +311,7 @@ body{
 
   .heading-posts-list{
     font-size: 1rem;
-    margin: 10rem 0 10rem 0;
+    margin: 10rem -4rem 10rem 1rem;
 
 
   }
@@ -377,7 +377,7 @@ body{
 
   .heading-posts-list{
     font-size: 1rem;
-    margin: 10rem 0 10rem 0;
+    margin: 10rem -4rem 10rem 1rem;
 
 
   }
@@ -443,7 +443,7 @@ body{
 
   .heading-posts-list{
     font-size: 1rem;
-    margin: 10rem 0 10rem 0;
+    margin: 10rem -4rem 10rem 1rem;
 
 
   }
@@ -511,7 +511,7 @@ body{
 
   .heading-posts-list{
     font-size: 1rem;
-    margin: 10rem 0 10rem 0;
+    margin: 10rem -4rem 10rem 1rem;
 
 
   }
@@ -580,7 +580,7 @@ body{
 
   .heading-posts-list{
     font-size: 1rem;
-    margin: 10rem 0 10rem 0;
+    margin: 10rem -4rem 10rem 1rem;
 
 
   }
